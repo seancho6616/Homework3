@@ -129,7 +129,7 @@ void AHomeworkGameState::StartLevel()
 	);
 
 	UpdateHUD();
-
+	UE_LOG(LogTemp, Warning, TEXT("Wave %d Start!!"), CurrentLevelIndex + 1);
 	UE_LOG(LogTemp, Warning, TEXT("Level %d Start! Spawned %d coin"), CurrentLevelIndex + 1, SpawnCoinCount);
 }
 
